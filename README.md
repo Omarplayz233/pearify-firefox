@@ -25,9 +25,7 @@ This includes the thumbnails, thumbnails, thumbnails... oh and the logo too.
 
 ## Microsoft Edge <a id="microsoftedge"></a>
 
-Microsoft Edge support has been ended, and the extension has been delisted. This is because Edge is consistently the slowest at reviewing extensions, constantly rejects my submissions with vague reasons why, and are allround terrible. Download the Chrome version instead.
-
-[![Button Download Chrome]][Download Chrome]  
+no
 
 <!----------------------------------------------------------------------------->
 
