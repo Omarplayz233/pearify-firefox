@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Gothic';
+    src: url('fonts/gothic-regular.ttf') format('truetype');
+    /* Add additional font formats here if needed */
+  }
+
+  body {
+    background-color: #ffffff;
+    font-family: "Gothic";
+    position: relative; /* Ensure relative positioning for absolute positioning */
+    user-select: none;
+  }
+  .container {
+    width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #90ee90;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    position: relative; /* Ensure the container is positioned relative for absolute positioning */
+    user-select: none;
+  }
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    text-align: left;
+    user-select: none;
+  }
+  .settings {
+    margin-top: 20px;
+    user-select: none;
+  }
+  .setting {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    user-select: none;
+  }
+  .setting label {
+    margin-right: 10px;
+    text-align: left;
+    user-select: none;
+  }
+  .setting input[type="checkbox"] {
+    margin-right: 5px;
+    user-select: none;
+  }
+  .setting input[type="range"] {
+    width: 150px;
+    user-select: none;
+  }
+  .credits {
+    margin-top: 20px;
+    user-select: none;
+  }
+  .credits-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+    user-select: none;
+  }
+  .credit {
+    margin-bottom: 10px;
+    user-select: none;
+  }
+  .credit-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 5px;
+    user-select: none;
+  }
+  .credit .name {
+    font-weight: bold;
+    flex: 1;
+    margin-right: 10px;
+    user-select: none;
+  }
+  .credit .details {
+    flex: 2;
+    font-size: 14px;
+    color: #555555;
+    user-select: none;
+  }
+  .credit .icon {
+    width: 20px; /* Adjust the width and height as needed */
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+    user-select: none;
+  }
+  /* Style for cogwheel icon */
+  .cogwheel-icon {
+    position: absolute;
+    top: -150px; /* Adjust to position above the container */
+    right: -125px; /* Adjust to position outside the container */
+    width: 400px; /* Adjust size as needed */
+    height: 400px;
+    z-index: 1; /* Ensure it's above other content */
+    user-select: none;
+  }
+  /* Style for question mark icon */
+  .question-mark-icon {
+    position: absolute;
+    bottom: 20px; /* Adjust vertical position */
+    right: 20px; /* Adjust horizontal position */
+    width: 40px; /* Adjust size as needed */
+    height: 40px;
+    cursor: arrow;
+    user-select: none;
+  }

@@ -1,0 +1,63 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Pearify",
+    "version": "1.0",
+    "icons": {
+        "1280": "icon.png"
+    },
+    "description": "Modify YouTube thumbnails to include RoyalPear's mascot, Tropius",
+    "action": {
+        "default_popup": "settings.html"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "host_permissions": ["*://*.youtube.com/*"],
+    "content_scripts": [{
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["pearify.js"],
+        "run_at": "document_idle"
+    }],
+    "web_accessible_resources": [{
+        "resources": [
+            "images/1.png",
+            "images/2.png",
+            "images/3.png",
+            "images/4.png",
+            "images/5.png",
+            "images/6.png",
+            "images/7.png",
+            "images/8.png",
+            "images/9.png",
+            "images/10.png",
+            "images/11.png",
+            "images/12.png",
+            "images/13.png",
+            "images/14.png",
+            "images/15.png",
+            "images/16.png",
+            "images/17.png",
+            "images/18.png",
+            "images/19.png",
+            "images/20.png",
+            "images/flip_blacklist.json",
+            "images/textFlipped/6.png",
+            "images/textFlipped/7.png",
+            "images/textFlipped/8.png",
+            "images/textFlipped/9.png",
+            "images/textFlipped/10.png",
+            "logo/peartube-white.png",
+            "images/devious/DO-NOT-OPEN.png.png",
+            "icons/cogwheel.png",
+            "icons/discord.png",
+            "icons/github.png",
+            "icons/help.png",
+            "icons/kofi.png",
+            "icons/youtube.png",
+            "fonts/gothic-regular.ttf"
+        ],
+        "matches": [
+            "*://*/*"
+        ]
+    }]
+}
