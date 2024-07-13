@@ -20,7 +20,10 @@ This includes the thumbnails, thumbnails, thumbnails... oh and the logo too.
 
 - This extension is heavily inspired by; and takes code from the original extension: **[MrBeastify][UI Website]**, by **[MagicJohn][UI YouTube]**.
 - This extension is not officialy affiliated with YouTube, RoyalPear, nor Tropius.
-- Don't expect this to be updated much. 
+- Don't expect this to be updated much.
+
+> [!CAUTION]
+> The mobile version doesn't work properly, if you WANT TO RUN IT, you need to install npm, and run it using run.mjs.
 
 ## Microsoft Edge <a id="microsoftedge"></a>
 
