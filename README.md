@@ -23,7 +23,7 @@ This includes the thumbnails, thumbnails, thumbnails... oh and the logo too.
 - Don't expect this to be updated much.
 
 > [!CAUTION]
-> The mobile version doesn't work properly, if you WANT TO RUN IT, you need to install npm, and run it using run.mjs.
+> The mobile version doesn't work properly, if you WANT TO RUN IT, you need to install nodejs, and npm, if you want it to be faster, use bun instead, install the deps and run it using run.mjs.
 
 ## Microsoft Edge <a id="microsoftedge"></a>
 
